@@ -98,6 +98,11 @@ with permission_ from Rich Wareham.
 Changes
 ```````
 
+0.14.0
+''''''
+
+* Add support for NumPy 2.0.
+
 0.13.0
 ''''''
 
