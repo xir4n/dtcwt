@@ -35,7 +35,7 @@ setup(
         'dtcwt': ['data/*.npz',],
     },
 
-    install_requires=[ 'numpy<2.0.0', 'six', ],
+    install_requires=[ 'numpy<2.0.0', 'scipy', 'six', ],
 
     extras_require={
         'docs': [ 'sphinx', 'docutils', 'matplotlib', 'ipython', ],
