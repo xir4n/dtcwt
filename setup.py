@@ -35,14 +35,14 @@ setup(
         'dtcwt': ['data/*.npz',],
     },
 
-    install_requires=[ 'numpy<2.0.0', 'scipy', 'six', ],
+    install_requires=[ 'numpy<1.23', 'scipy', 'six', ],
 
     extras_require={
         'docs': [ 'sphinx', 'docutils', 'matplotlib', 'ipython', ],
         'opencl': [ 'pyopencl', ],
     },
 
-    tests_require=[ 'coverage', ],
+    tests_require=[ 'coverage', 'pytest<8,>=7'],
 )
 
 # vim:sw=4:sts=4:et
